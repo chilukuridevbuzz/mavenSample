@@ -98,14 +98,14 @@
   </dependencies>
   <distributionManagement>
         <repository>
-          <id>nexus</id>
-          <name>Mithun Technologies Releases Nexus Repository</name>
-          <url>http://localhost:8081/repository/kulasekhar/</url>
+          <id>nexusupload</id>
+          <name>This is upload to nexus system</name>
+          <url>http://192.168.1.34:8081/repository/maven-public/</url>
         </repository>
         <snapshotRepository>
-          <id>nexus</id>
-          <name>Mithun Technologies Snapshot Nexus Repository </name>
-          <url>http://localhost:8081/repository/maven-snapshots</url>
+          <id>nexusupload</id>
+          <name>This is upload to nexus system</name>
+          <url>http://192.168.1.34:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
       </distributionManagement>
 	  
